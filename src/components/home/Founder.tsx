@@ -103,9 +103,13 @@ const Founder = () => {
               
               <div className="flex items-center gap-4 px-6 py-4">
                  <div className="flex -space-x-3">
-                    {[1,2,3].map((i) => (
+                    {[
+                      "/images/me.jpg",
+                      "/images/vol1.jpg",
+                      "/images/vol2.jpg"
+                    ].map((img, i) => (
                       <div key={i} className="w-10 h-10 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
-                        <img src={`https://i.pravatar.cc/100?img=${i+10}`} alt="Volunteer" />
+                        <img src={img} alt="Volunteer" className="w-full h-full object-cover" />
                       </div>
                     ))}
                  </div>
