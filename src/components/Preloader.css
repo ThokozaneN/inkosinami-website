@@ -1,0 +1,98 @@
+.preloader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  background: #0B1F3A; /* Primary Navy */
+  overflow: hidden;
+  color: #fff;
+  font-family: var(--font-display);
+}
+
+.preloader-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1em;
+  padding: 1em; /* Add some padding to avoid edge cutoff if needed */
+}
+
+.preloader-col {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.preloader-item {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  background: #1F2933; /* Darker placeholder */
+  overflow: hidden;
+  border-radius: 4px; /* Slight roundness */
+}
+
+.preloader-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+/* Initial States for Animation */
+.c-1,
+.c-3,
+.c-5 {
+  top: 100%;
+}
+
+.c-1 .preloader-item,
+.c-3 .preloader-item,
+.c-5 .preloader-item {
+  top: 100%;
+}
+
+.c-2 .preloader-item,
+.c-4 .preloader-item {
+  top: -100%;
+}
+
+.preloader-hero {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.preloader-title {
+  text-align: center;
+  font-size: 40px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  overflow: hidden;
+}
+
+.preloader-title p {
+  position: relative;
+  top: 100px; /* Initially hidden below */
+  font-weight: bold;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 768px) {
+  .preloader-title {
+    font-size: 24px;
+  }
+}
