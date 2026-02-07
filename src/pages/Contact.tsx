@@ -114,8 +114,10 @@ const Contact = () => {
                 </a>
               </div>
               <div className="md:w-1/2 h-full min-h-[300px] w-full bg-slate-200 rounded-[2.5rem] overflow-hidden border-4 border-white shadow-xl">
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4604.859056368303!2d29.079782!3d-26.563519000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eeb153b3f4e21fd%3A0x7472a3efc212a870!2s10743%20Ampie%20Mayisa%20Cres%2C%20Embalenhle%2C%202285!5e1!3m2!1sen!2sza!4v1770445186748!5m2!1sen!2sza"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4604.859056368303!2d29.079782!3d-26.563519000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eeb153b3f4e21fd%3A0x7472a3efc212a870!2s10743%20Ampie%20Mayisa%20Cres%2C%20Embalenhle%2C%202285!5e1!3m2!1sen!2sza!4v1770445186748!5m2!1sen!2sza" 
+                  width="100%" height="100%" style={{ border: 0 }} allowFullScreen={true} loading="lazy" className="grayscale contrast-125 opacity-80"
+                ></iframe>
               </div>
             </div>
 
