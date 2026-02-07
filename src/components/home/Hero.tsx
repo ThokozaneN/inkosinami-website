@@ -86,11 +86,11 @@ const Hero = () => {
         <div className="hero-tags flex flex-wrap justify-center gap-3 md:gap-5 mb-10 md:mb-14">
           <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl px-4 md:px-6 py-2.5 md:py-3 text-xs md:text-sm font-bold text-white/90 flex items-center gap-2 hover:bg-white/15 transition-all cursor-default shadow-lg">
             <MapPin size={16} className="text-secondary-orange" />
-            Mpumalanga, South Africa
+            Embalenhle, Mpumalanga
           </div>
           <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl px-4 md:px-6 py-2.5 md:py-3 text-xs md:text-sm font-bold text-white/90 flex items-center gap-2 hover:bg-white/15 transition-all cursor-default shadow-lg">
             <ShieldCheck size={16} className="text-secondary-orange" />
-            NPO: 123-456
+            NPO: 205-757
           </div>
         </div>
         

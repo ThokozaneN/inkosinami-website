@@ -115,7 +115,7 @@ const Donate = () => {
               </a>
               <div className="flex items-center gap-3 px-6 py-4 bg-white rounded-2xl border border-slate-100 shadow-sm">
                  <ShieldCheck className="text-emerald-500" size={24} />
-                 <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">NPO: 123-456</span>
+                 <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">NPO: 205-757</span>
               </div>
            </div>
         </div>
@@ -210,18 +210,18 @@ const Donate = () => {
                         </div>
                         <h3 className="text-4xl font-black text-primary-navy uppercase tracking-tighter">Bank <br />Details.</h3>
                      </div>
-                     <button onClick={() => copyToClipboard("1234567890")} className="flex items-center gap-3 px-6 py-4 bg-primary-blue/5 text-primary-blue rounded-2xl font-black text-xs uppercase tracking-[0.2em] hover:bg-primary-blue hover:text-white transition-all">
+                     <button onClick={() => copyToClipboard("Bank: FNB, Account No: 863119471645, Branch Code: 250655")} className="flex items-center gap-3 px-6 py-4 bg-primary-blue/5 text-primary-blue rounded-2xl font-black text-xs uppercase tracking-[0.2em] hover:bg-primary-blue hover:text-white transition-all">
                         <Share2 size={16} /> Share All
                      </button>
                   </div>
 
                   <div className="relative z-10 space-y-4">
                     {[
-                      { label: "Bank Name", value: "Standard Bank" },
+                      { label: "Bank Name", value: "First National Bank" },
                       { label: "Account Holder", value: "INkosinami Drop-In Center" },
-                      { label: "Account Number", value: "123 456 7890", copy: true },
-                      { label: "Branch Code", value: "051001", copy: true },
-                      { label: "Swift/BIC", value: "SBZA ZAJJ", copy: true }
+                      { label: "Account Number", value: "631 194 71645", copy: true },
+                      { label: "Branch Code", value: "250655", copy: true },
+                      { label: "Swift/BIC", value: "FIRNZAJJ", copy: true }
                     ].map((d, i) => (
                       <div key={i} className="group/item flex flex-col md:flex-row justify-between items-start md:items-center p-6 md:p-8 rounded-3xl hover:bg-slate-50 transition-all border border-transparent hover:border-slate-100">
                          <span className="text-[10px] font-black text-slate-400 uppercase tracking-[0.3em] mb-2 md:mb-0">{d.label}</span>
@@ -242,7 +242,7 @@ const Donate = () => {
                         <div className="w-16 h-16 rounded-[1.5rem] bg-primary-navy text-white flex items-center justify-center font-black text-xl">INK</div>
                         <div>
                            <p className="font-black text-primary-navy uppercase text-sm">INkosinami NPO</p>
-                           <p className="text-slate-400 font-bold text-xs uppercase tracking-widest">Est. 2014</p>
+                           <p className="text-slate-400 font-bold text-xs uppercase tracking-widest">Est. 2016</p>
                         </div>
                      </div>
                      <p className="text-center md:text-right text-xs font-black text-slate-300 uppercase tracking-widest max-w-[200px]">Thank you for your life-changing support.</p>

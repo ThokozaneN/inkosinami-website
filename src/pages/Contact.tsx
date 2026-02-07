@@ -106,7 +106,7 @@ const Contact = () => {
                 </div>
                 <h3 className="text-3xl md:text-4xl font-black text-primary-navy mb-6 uppercase tracking-tighter leading-none">OUR <br /> LOCATION.</h3>
                 <p className="text-slate-500 mb-8 text-lg md:text-xl font-medium leading-relaxed">
-                  Ext 14, Embalenhle, <br />
+                  10743 Ampie Mayisa Street Ext 14, Embalenhle, <br />
                   Mpumalanga, South Africa, 2285
                </p>
                 <a href="#map" className="inline-flex items-center gap-3 text-primary-blue font-black text-sm uppercase tracking-widest group">
@@ -115,7 +115,7 @@ const Contact = () => {
               </div>
               <div className="md:w-1/2 h-full min-h-[300px] w-full bg-slate-200 rounded-[2.5rem] overflow-hidden border-4 border-white shadow-xl">
                  <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14334.809322307525!2d29.09641475!3d-26.5649938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e974e49e6f9864b%3A0x6b864983088b693e!2seMbalenhle%2C%202285!5e0!3m2!1sen!2sza!4v1709400000000!5m2!1sen!2sza" 
+                  src="https://www.google.com/maps/place/10743+Ampie+Mayisa+Cres,+Embalenhle,+2285/@-26.563519,29.079782,1057m/data=!3m2!1e3!4b1!4m6!3m5!1s0x1eeb153b3f4e21fd:0x7472a3efc212a870!8m2!3d-26.563519!4d29.079782!16s%2Fg%2F11csf55qgg?entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoKLDEwMDc5MjA2OUgBUAM%3D" 
                   width="100%" height="100%" style={{ border: 0 }} allowFullScreen={true} loading="lazy" className="grayscale contrast-125 opacity-80"
                 ></iframe>
               </div>
@@ -147,8 +147,8 @@ const Contact = () => {
                    <h3 className="text-4xl md:text-7xl font-black mb-6 uppercase tracking-tighter leading-none">HOTLINE.</h3>
                    <p className="text-orange-100 text-xl md:text-2xl font-medium leading-relaxed italic">"Because hope shouldn't have to wait."</p>
                  </div>
-                 <a href="tel:+27821234567" className="px-12 py-6 bg-white text-secondary-orange rounded-[2rem] font-black text-3xl md:text-5xl shadow-2xl hover:scale-105 transition-all tracking-tighter">
-                   +27 82 123 4567
+                 <a href="tel:+27728631740" className="px-12 py-6 bg-white text-secondary-orange rounded-[2rem] font-black text-3xl md:text-5xl shadow-2xl hover:scale-105 transition-all tracking-tighter">
+                   072 863 1740
                  </a>
                </div>
             </div>

@@ -36,7 +36,7 @@ const Footer = () => {
             <ul className="space-y-4 text-sm text-slate-300">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="mt-1 shrink-0 text-primary-blue" />
-                <span>123 Hope Street, Embalenhle, Mpumalanga</span>
+                <span>10743 Ampie Mayisa Ext 14, Embalenhle, Mpumalanga</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="shrink-0 text-primary-blue" />
@@ -72,7 +72,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="flex gap-6">
-            <span>NPO Reg: 123-456 NPO</span>
+            <span>NPO Reg: 205-757 NPO</span>
             <Link to="/privacy" className="hover:text-white">Privacy Policy</Link>
           </div>
         </div>

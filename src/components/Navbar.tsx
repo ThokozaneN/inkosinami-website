@@ -169,8 +169,8 @@ const Navbar = () => {
             </Link>
             
             <div className="mobile-nav-item flex justify-center gap-8 pt-4">
-               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">NPO: 123-456</span>
-               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Est. 2014</span>
+               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">NPO: 205-757</span>
+               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Est. 2016</span>
             </div>
           </div>
         </div>
