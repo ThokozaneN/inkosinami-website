@@ -235,7 +235,7 @@ const Contact = () => {
                <ShieldCheck size={64} className="mx-auto text-emerald-500 mb-4 opacity-20" />
                <h2 className="text-4xl md:text-6xl font-black text-primary-navy uppercase tracking-tighter">Verified Sanctuary.</h2>
                <p className="text-xl text-slate-500 font-medium">Located in eMbalenhle, Govan Mbeki Municipality. Visit us anytime during center hours.</p>
-               <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-4 px-10 py-6 bg-secondary-cream text-primary-navy border-2 border-slate-200 rounded-full font-black text-xl hover:bg-white transition-all group">
+               <a href="https://maps.app.goo.gl/ahPBpxULVBiRb5EFA" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-4 px-10 py-6 bg-secondary-cream text-primary-navy border-2 border-slate-200 rounded-full font-black text-xl hover:bg-white transition-all group">
                  <MapPin className="text-rose-500" />
                  START NAVIGATION
                  <ArrowRight size={24} className="group-hover:translate-x-2 transition-transform" />
